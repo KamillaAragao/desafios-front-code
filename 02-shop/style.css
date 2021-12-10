@@ -1,0 +1,204 @@
+/*Variáveis*/
+:root {
+    --bgSite: #f6f6f6;
+    --bgCard: #ebe9ea;
+    
+    --white: #fff;
+  
+    --title: #181818;
+    --text: #474747;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:'Mont-Bold';
+    src: url('fontes/Montserrat-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+    font-family:'Mont-SemiBold';
+    src: url('fontes/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+/*Reset*/
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-family: 'Mont-SemiBold';
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+ 
+
+/*-- Cabeçalho--*/
+
+
+.desconto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: rgba(246, 246, 246, 1);
+    background-color: var(--title);
+    
+    font-family: 'Mont-SemiBold';
+    height: 60px;
+
+}
+.nome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    color: rgba(24, 24, 24, 1);
+    background-color: var(--bgSite);
+
+    height: 60px;
+}
+
+.tenis-principal {
+    font-size: 16px;
+    background:linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('img/wallpaper.jpeg');
+   
+    height: 400px;
+    background-size: cover;
+    color: rgba(246, 246, 246, 1);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;    
+   
+}
+
+.tenis-principal .descricao {
+    
+    font-family: 'Mont-SemiBold';
+    font-size: 18px;
+    line-height: 35px;
+    line-height: 196%;
+
+    margin-left: 100px;
+    margin-top: 19px;
+    align-items: left;
+
+}
+
+.titulo {
+    
+    font-size: 32px;
+    font-family:'Mont-SemiBold';
+    margin-left: 100px;
+}
+
+/*-- Destaques--*/
+
+.destaques{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+   
+    margin-top: 58px;
+    
+    
+    
+
+}
+.dest{
+    font-family: 'Mont-SemiBold';
+    font-size: 32px;
+    line-height: 63px;
+    line-height: 196%;
+}
+.frete{
+    font-size: 18px;
+    line-height: 35px;
+    line-height: 196%;
+}
+
+/*-- tenis--*/
+
+.container-tenis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-tenis img{
+    height: 150px;
+    width: 250px; 
+    
+    
+}
+
+.linha-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin: 59px 100px 39px 100px;
+   
+}
+
+span{
+    display: flex;
+    align-items: center;
+    
+    background-color: var(--bgCard);
+    
+    
+    padding: 76px 25px;
+    margin-right: 13px;
+}
+
+.linha-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin: 0px 100px 39px 100px;
+   
+}
+
+/*-- footer--*/
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Mont-SemiBold';
+    font-size: 18px;
+    line-height: 35px;
+    line-height: 196%;
+
+    height: 60px;
+    background-color: rgba(24, 24, 24, 1);
+    color: var(--bgSite);
+}
